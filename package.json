@@ -1,0 +1,18 @@
+{
+  "name": "demo-project",
+  "module": "index.ts",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bunx --bun tsup",
+    "watch": "bunx --bun tsup --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsup": "^8.4.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
